@@ -1,0 +1,851 @@
+@font-face {
+	font-family: "Roboto-Bold";
+  	src: url("Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url(Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Roboto-Light";
+	src: url(Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+	font-family: "Roboto-Medium";
+	src: url(Roboto/Roboto-Medium.ttf);
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.vents-ace-container,
+.vents-ace-header,
+.block-vents-ace-header-icon-text,
+.block-vents-ace-header-left,
+.block-vents-ace-header-right,
+.block-vents-ace-header-icon,
+
+.vents-ace-features,
+.block-vents-ace-features-img-text,
+.block-vents-ace-features,
+.features-text,
+
+.vents-ace-about-system,
+.vents-ace-about-system-block-text,
+.vents-ace-about-system-block-icons,
+.vents-ace-about-system-icons,
+
+.vents-ace-features-fan,
+.vents-ace-features-fan-list,
+.vents-ace-features-fan-item,
+.vents-ace-features-fan-block-text,
+
+.vents-ace-features-usage,
+
+.vents-ace-modifications,
+.vents-ace-modifications-list,
+.vents-ace-modifications-item,
+.vents-ace-modifications-text,
+.vents-ace-modifications-block-icons,
+.vents-ace-model-range,
+.vents-ace-footer  {
+	display: flex;
+}
+
+.vents-ace-container,
+
+.vents-ace-header,
+
+.vents-ace-features,
+.block-vents-ace-features-img-text, 
+
+.vents-ace-about-system,
+.vents-ace-about-system-block-text,
+.vents-ace-about-system-block-icons,
+.vents-ace-about-system-icons,
+
+.vents-ace-features-fan,
+.vents-ace-features-fan-list,
+.vents-ace-features-fan-item,
+.vents-ace-features-fan-block-text,
+
+.vents-ace-features-usage,
+
+.vents-ace-modifications,
+.vents-ace-modifications-list,
+.vents-ace-modifications-item,
+.vents-ace-modifications-text,  
+.vents-ace-model-range,
+.vents-ace-footer {
+	min-width: 100px;
+	width: 100%;
+}
+
+.vents-ace-container {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.vents-ace-header,
+
+.vents-ace-features,
+
+.vents-ace-about-system,
+
+.vents-ace-features-fan,
+
+.vents-ace-features-usage,
+
+.vents-ace-modifications,
+.vents-ace-model-range,
+
+.vents-ace-footer {
+	max-width: 1199px;
+}
+
+.vents-ace-header,
+.vents-ace-features {
+	min-height: 675px;
+}
+
+.vents-ace-header {
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url('../img/background-header.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top center;
+}
+
+.block-vents-ace-header-left {
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+
+.vents-ace-header-logo,
+img.vents-ace-header-icon,
+.vents-ace-header-img-main,
+.block-vents-ace-features,
+.vents-ace-features-img,
+.vents-ace-about-system-icon,
+.vents-ace-features-fan-img,
+.vents-ace-features-usage-img,
+.logo-footer-img   {
+	min-width: 50px;
+	width: 100%;
+}
+
+
+img.vents-ace-header-icon   {
+	margin-right: 30px;
+}
+
+.vents-ace-header-logo {
+	max-width: 160px;
+}
+
+.block-vents-ace-header-icon-text {
+	flex-direction: column;
+	justify-content: space-around;
+	min-height: 460px;
+}
+
+.block-vents-ace-header-right {
+	justify-content: center;
+	align-items: center;	
+}
+
+.vents-ace-header-header {
+	font-family: "Roboto-Bold", sans-serif;
+	font-size: 50px;
+	color: #712e91;
+
+}
+
+.vents-ace-header-header,
+.vents-ace-header-logo,
+.block-vents-ace-header-icon,
+.vents-ace-header-text,
+.block-vents-ace-header-right {
+	margin: 10px 20px;
+}
+
+.block-vents-ace-header-icon {
+	flex-direction: row;
+	align-items: baseline;
+}
+
+img.vents-ace-header-icon {
+	max-width: 90px;
+}
+
+.vents-ace-header-text {
+	font-size: 18px;
+}
+
+.vents-ace-header-text, 
+.vents-ace-about-system-header,
+.vents-ace-features-fan-header,
+.vents-ace-features-usage-header,
+.vents-ace-modifications-header,
+.vents-ace-model-range-header {
+	font-family: "Roboto-Regular", sans-serif;
+}
+
+
+.vents-ace-header-img-main {
+	max-width: 500px;
+}
+
+.block-vents-ace-header-left,
+.block-vents-ace-header-right {
+	min-width: 50px;
+	max-width: 560px;
+	width: 100%;
+}
+
+
+
+.vents-ace-features {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.block-vents-ace-features-img-text {
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.block-vents-ace-features{
+	max-width: 599px;
+	min-height: 445px;
+}
+
+.features-text {
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	background: #f5f5f5;	
+}
+
+.features-text,
+.vents-ace-about-system-block-text,
+.vents-ace-features-fan-text,
+.vents-ace-modifications-text,
+td {
+	font-family: "Roboto-Light", sans-serif;
+
+}
+
+.features-text>p {
+	margin: 20px;
+}
+
+.features-text>p>b {
+	font-size: 18px;
+}
+
+.features-text>p>b,
+.vents-ace-about-system-h3,
+.vents-ace-features-fan-h3,
+.vents-ace-modifications-ace,
+th {
+	font-family: "Roboto-Medium", sans-serif;
+}
+
+.vents-ace-about-system {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 200px;
+	background: #ffffff;
+	margin: 40px 0;
+}
+
+.vents-ace-about-system-header {
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.vents-ace-about-system-header,
+.vents-ace-about-system-block-text>p,
+.vents-ace-about-system-h3 {
+	margin: 20px;
+}
+
+.vents-ace-about-system-block-text{
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	font-size: 18px;
+}
+
+.vents-ace-about-system-block-text>p {
+	max-width: 847px;
+}
+
+.vents-ace-about-system-block-icons {
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+
+.vents-ace-about-system-h3 {
+	font-size: 18px;
+}
+
+.vents-ace-about-system-icons {
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: baseline;
+	flex-wrap: wrap;
+}
+
+.vents-ace-about-system-icon {
+	max-width: 320px;
+	margin: 10px;
+}
+
+
+
+.vents-ace-features-fan {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #d0661b;
+}
+
+.vents-ace-features-fan-header {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-top: 50px;
+}
+
+.vents-ace-features-fan-header,
+.vents-ace-features-fan-h3,
+.vents-ace-features-fan-text {
+	color: #ffffff;
+}
+
+.vents-ace-features-fan-list {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 0;
+}
+
+.vents-ace-features-fan-item {
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+	max-width: 1100px;
+}
+
+.vents-ace-features-fan-img {
+	max-width: 248px;
+	margin: 0px 20px;
+}
+
+.vents-ace-features-fan-block-text {
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: start;
+	min-width: 600px;
+
+}
+
+.vents-ace-features-fan-h3 {
+	font-size: 18px;
+}
+
+.vents-ace-features-fan-h3,
+.vents-ace-features-fan-text {
+	margin: 15px 20px;
+}
+
+.vents-ace-features-fan-text {
+	font-size: 18px;
+}
+
+.vents-ace-features-usage {
+	flex-direction: column;
+	align-items: center;
+	background: #ffffff;
+}
+
+.vents-ace-features-usage-header {
+	font-size: 25px;
+	text-transform: uppercase;
+	margin: 50px 0;
+}
+
+.vents-ace-features-usage-img {
+	max-width: 1199px;
+}
+
+
+
+.vents-ace-modifications {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #ffffff;
+}
+
+.vents-ace-modifications-header {
+	text-transform: uppercase;
+	font-size: 25px;
+	margin: 50px 0 40px 0;
+
+}
+
+.vents-ace-modifications-list {
+	flex-direction: column;
+
+}
+
+.vents-ace-modifications-item {
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	border-top: 1px solid #000;
+}
+
+.vents-ace-modifications-item:last-child  {
+	border-bottom: 1px solid #000;
+}
+
+.vents-ace-modifications-block-ace {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	min-width: 100px;
+}
+
+.vents-ace-modifications-ace {
+	font-size: 19px;
+}
+
+.vents-ace-modifications-text {
+	flex-direction: row;
+	justify-content: flex-start;
+	min-width: 100px;
+	margin: 25px 20px;
+	font-size: 19px;
+}
+
+.vents-ace-modifications-block-icons {
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	min-width: 114px;
+}
+
+.vents-ace-modifications-icon {
+	max-width: 32px;
+	margin-right: 5px;
+}
+
+
+
+.vents-ace-model-range {	
+	display: inline-block;
+	padding-bottom: 40px;
+	background: #f5f5f5 ;
+}
+
+.vents-ace-model-range-header {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 40px 0;
+	font-size: 25px;
+}
+
+table {
+	width: 100%;
+}
+
+thead {
+	height: 60px;
+}
+
+th {
+	font-size: 19px;
+	padding: 8px;
+}
+
+tr>th:first-child {
+	padding-left: 50px;
+	text-align: start;
+}
+
+th, td {
+	min-width: 30px;
+}
+
+tbody tr {
+	height: 30px;
+}
+
+tr>td {
+	text-align: center;
+	padding: 8px;
+}
+
+tr>td:first-child {
+	text-align: start;
+	padding-left: 50px;
+}
+
+tr>th {
+	border-bottom: 2px solid #ffffff;
+}
+
+td {
+	border-bottom: 2px solid #ffffff;
+	font-size: 19px;
+}
+
+tr:hover {background-color: #cdc5bf;}
+
+
+
+.vents-ace-footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	background: #63318e;
+}
+
+.logo-footer-img {
+	max-width: 150px;
+}
+
+
+
+@media all and (max-width: 1200px) {
+	img.vents-ace-header-icon {
+		max-width: 100px;
+	}
+
+	.vents-ace-header-header {
+		font-size: 63px;
+	}
+
+	.vents-ace-header-text,
+
+	.features-text,
+	.features-text>p>b,
+
+	.vents-ace-about-system-block-text,
+	.vents-ace-about-system-h3,
+
+	.vents-ace-features-fan-text {
+		font-size: 22px;
+	}
+
+	.vents-ace-about-system-header,
+	.vents-ace-features-fan-header,
+	.vents-ace-features-usage-header,
+	.vents-ace-modifications-header,
+	.vents-ace-model-range-header {
+		font-size: 30px;
+	}
+
+
+	.vents-ace-features-fan-h3 {
+		font-size: 24px;
+	}
+
+	.logo-footer-img {
+		max-width: 206px;
+	}
+
+}
+
+
+
+@media all and (max-width: 800px) {
+
+	img.vents-ace-header-icon {
+		max-width: 50px;
+	}
+
+	.vents-ace-header-header {	
+		font-size: 50px;
+	}
+
+	.vents-ace-header-text,
+
+	.features-text,
+	.features-text>p>b,
+
+	.vents-ace-about-system-block-text,
+	.vents-ace-about-system-h3,
+
+	.vents-ace-features-fan-h3,
+	.vents-ace-features-fan-text,
+	.vents-ace-modifications-text {
+		font-size: 18px;
+	}
+
+
+	.vents-ace-about-system-header,
+	.vents-ace-features-fan-header,
+	.vents-ace-features-usage-header,
+	.vents-ace-modifications-header,
+	.vents-ace-model-range-header {
+		font-size: 25px;
+	}
+
+
+	.vents-ace-features-fan-item {
+		flex-direction: column;
+		align-items: flex-start;
+		margin-bottom: 30px;
+	}
+
+	.vents-ace-features-fan-img {
+		max-width: 100px;
+	}
+
+	.vents-ace-features-fan-block-text {
+		min-width: 100px;
+	}
+
+	.vents-ace-features-fan-h3,
+	.vents-ace-features-fan-text {
+		margin: 10px 20px;
+	}
+
+
+	.vents-ace-modifications-item {
+		flex-direction: column;
+		align-items: start;
+		flex-wrap: wrap;
+	}
+
+	.vents-ace-modifications-block-ace {
+		justify-content: start;
+		order: 1;
+		margin: 0px 20px;
+	}
+
+	.vents-ace-modifications-text {
+		order: 3;
+		margin-top: 10px;
+		width: auto;
+	}
+
+	.vents-ace-modifications-block-icons {
+		justify-content: start;
+		margin: 20px 20px 10px 20px;
+	}
+
+	th, td {
+		font-size: 16px;
+	}
+
+	tr>th:first-child {
+		padding-left: 20px;
+	}
+
+	tr>td:first-child {
+		padding-left: 20px;
+	}
+
+
+	.logo-footer-img {
+		max-width: 150px;
+	}
+
+}
+
+
+
+@media all and (max-width: 700px) {
+
+	.vents-ace-header {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.block-vents-ace-header-left,
+	.block-vents-ace-header-right {
+		max-width: 1120px;
+	}
+
+	.block-vents-ace-header-logo-block {
+		min-height: 30px;
+	}
+
+	.block-vents-ace-header-icon-text {
+		min-height: 400px;
+	}
+
+	.vents-ace-header-img-main {
+		max-width: 400px;
+	}
+
+	
+
+	.block-vents-ace-features{
+		max-width: 1120px;
+		min-height: 400px;
+	}
+
+	.block-vents-ace-features-img-text {
+		flex-direction: column;
+	}
+
+	.features-img-text-reverse {
+		flex-direction: column-reverse;
+	}
+
+
+
+	.vents-ace-model-range{
+		overflow-x: scroll;
+	}
+
+}
+
+
+@media all and (max-width: 400px) {
+
+	img.vents-ace-header-icon   {
+		margin-right: 10px;
+	}
+
+	.block-vents-ace-header-icon-text {
+		flex-direction: column;
+		justify-content: space-around;
+		min-height: 300px;
+	}
+
+	.vents-ace-header-logo {
+		max-width: 100px;
+	}
+
+	.vents-ace-header-header {	
+		font-size: 40px;
+	}
+
+
+	.vents-ace-header-text,
+
+	.features-text,
+	.features-text>p>b,
+
+	.vents-ace-about-system-block-text,
+	.vents-ace-about-system-h3,
+
+	.vents-ace-features-fan-h3,
+	.vents-ace-features-fan-text,
+
+	.vents-ace-modifications-text {
+		font-size: 16px;
+	}
+
+	.vents-ace-header-img-main {
+		max-width: 300px;
+	}
+
+
+	.block-vents-ace-features{
+		min-height: 300px;
+	}
+
+
+	.vents-ace-about-system {
+		margin: 30px 0;
+	}
+
+	.vents-ace-about-system-header,
+	.vents-ace-about-system-block-text>p,
+	.vents-ace-about-system-h3 {
+		margin: 10px 20px;
+	}
+
+	.vents-ace-about-system-header,
+	.vents-ace-features-fan-header,
+	.vents-ace-features-usage-header,
+	.vents-ace-modifications-header,
+	.vents-ace-model-range-header {
+		font-size: 18px;
+	}
+
+	.vents-ace-features-fan-img {
+		max-width: 50px;
+	}
+
+	.vents-ace-features-usage-header,
+	.vents-ace-modifications-header,
+	.vents-ace-model-range-header {
+		margin: 40px;
+	}
+
+	th, td {
+		font-size: 14px;
+	}
+
+}
+
+
+@media all and (max-width: 300px) {
+
+	.block-vents-ace-header-icon {
+	    flex-wrap: wrap;
+	}
+
+	img.vents-ace-header-icon   {
+		margin-right: 5px;
+	}
+
+	.vents-ace-header-header {	
+		font-size: 30px;
+	}
+
+
+	.vents-ace-header-text,
+
+	.features-text,
+	.features-text>p>b,
+
+	.vents-ace-about-system-block-text,
+	.vents-ace-about-system-h3,
+
+	.vents-ace-features-fan-h3,
+	.vents-ace-features-fan-text,
+
+	.vents-ace-modifications-text,
+
+	th, td {
+		font-size: 12px;
+	}
+
+
+	.block-vents-ace-features{
+		min-height: 200px;
+	}
+
+}
